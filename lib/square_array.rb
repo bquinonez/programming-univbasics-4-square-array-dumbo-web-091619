@@ -1,7 +1,7 @@
 def square_array(numbers)
   count = 0
   while numbers[count] do
-    puts numbers ** 2
+    puts numbers * 2
     count =+ numbers
  end
 end
