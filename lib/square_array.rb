@@ -1,6 +1,7 @@
-
-def square_array(ary)
-  a = Array.new(ary.length)
-  ary.each_index { |i| a[i] = ary[i] * ary[i] }
-  a
+def square_array(numbers)
+ num = 0
+ while num <= numbers|i| do
+   p num ** 2 
+   num += 1 
+   end
 end
