@@ -1,8 +1,8 @@
 def square_array(numbers)
   count = 0
-  while count < numbers do
- numbers.each do |num|
-   p count ** 2
+  while numbers[count] do
+    puts numbers ** 2
+    count =+ numbers
  end
 end
 
